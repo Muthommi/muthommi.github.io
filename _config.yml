@@ -1,1 +1,9 @@
 theme: jekyll-theme-minimal
+title: "Kelvin-Martin Muthomi"
+description: "Software engineer"
+author:
+  name: "Kelvin-Martin Muthomi"
+  email: "kelvinmartinmuthomi@gmail.com"
+social:
+  github: "https://github.com/Muthommi"
+  linkedin: "www.linkedin.com/in/martin-kelvin-muthomi"
