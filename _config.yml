@@ -1,6 +1,6 @@
 remote_theme: jekyll/minima
 title: "Kelvin-Martin Muthomi"
-description: "Software engineer"
+description: "Backend Software engineer"
 author:
   name: "Kelvin-Martin Muthomi"
   email: "kelvinmartinmuthomi@gmail.com"
@@ -8,3 +8,4 @@ social:
   github: "https://github.com/Muthommi"
   linkedin: "www.linkedin.com/in/martin-kelvin-muthomi"
 include: ["style.css"]
+exclude: ["README.md"]

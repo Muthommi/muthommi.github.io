@@ -47,3 +47,35 @@ h1 {
 .cta-button:hover {
     background-color: #005799;
 }
+
+a:hover, cta-button:hover {
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode a {
+    color: #f8c537;
+}
+
+.dark-mode .cta-button {
+    background-color: #f8c537;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

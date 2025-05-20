@@ -8,9 +8,12 @@ description: "An insight to my projects and skills"
 
 
 ## Latest projects
+
+<input type="text" id="search" placeholder="Search projects..." />
+
 <div class="projects-grid">
 {% for post in site.posts %}
-  <div class="project-card">
+  <div class="project-card" data-title="{{ post.title }}">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p>{{ post.date | date: "%B %d, %Y" }}</p>
   </div>
