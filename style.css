@@ -77,6 +77,16 @@ a:hover, .cta-button:hover {
     transition: 0.3s ease-in-out;
 }
 
+#theme-toggle {
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 .dark-mode {
     background-color: #222;
     color: white;
