@@ -17,5 +17,5 @@ description: "An insight to my projects and skills"
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p>{{ post.date | date: "%B %d, %Y" }}</p>
   </div>
-{% end for %}
+{% endfor %}
 </div>
