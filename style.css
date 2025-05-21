@@ -12,14 +12,36 @@ h1 {
     text-align: center;
 }
 
+/* Hero section */
 .hero {
-    background-image: url('image.jpg');
+    background-image: url('/assets/images/image.jpg');
     background-size: cover;
     text-align: center;
     padding: 100px 0;
     color: white;
 }
 
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #005799;
+}
+
+/* Projects cards grid */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -34,18 +56,19 @@ h1 {
     text-align: center;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007acc;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+.project_card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
-.cta-button:hover {
-    background-color: #005799;
+/* Search bar */
+#search {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
 a:hover, cta-button:hover {
@@ -64,18 +87,4 @@ a:hover, cta-button:hover {
 
 .dark-mode .cta-button {
     background-color: #f8c537;
-}
-
-#search {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.project-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
 }
