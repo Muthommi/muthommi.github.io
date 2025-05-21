@@ -16,6 +16,7 @@ h1 {
 .hero {
     background-image: url('/assets/images/image.jpg');
     background-size: cover;
+    background-position: center;
     text-align: center;
     padding: 100px 0;
     color: white;
@@ -56,7 +57,7 @@ h1 {
     text-align: center;
 }
 
-.project_card img {
+.project-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -71,7 +72,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-a:hover, cta-button:hover {
+a:hover, .cta-button:hover {
     opacity: 0.8;
     transition: 0.3s ease-in-out;
 }
